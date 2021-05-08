@@ -8,7 +8,7 @@ Created on Fri May  7 16:29:13 2021
 import os
 import pickle
 counter=0
-os.system("""pip install -r C:\\Users\\DE-PC\\Desktop\\requirements.txt""")
+os.system("""pip install -r requirements.txt""")
 
 while 1==1:
     if counter>0:
@@ -29,6 +29,6 @@ while 1==1:
         8. Mailing Activity[if 'y' or 'Y' then the entire list for the apt group containing free spots and date is mailed] else the details of  only those vaccination spots will be mailed that have free spots.
         
     '''
-    os.system("""python C:\\Users\\DE-PC\\Desktop\\cowin_api_fetch.py 294 8 19 abc@gmail.com xyz@gmail.com **** 120 y""")
+    os.system("""python cowin_api_fetch.py 294 8 19 abc@gmail.com xyz@gmail.com **** 120 y""")
     
     
